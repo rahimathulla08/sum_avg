@@ -1,7 +1,7 @@
-n = int(input("Enter number"))
+n1 = 12
+n2 =34
 sum = 0
-for num in range(1, n + 1, 1):
-    sum = sum + num
-print("Sum of first ", n, "numbers is: ", sum)
-average = sum / n
-print("Average of ", n, "numbers is: ", average)
+sum = n1 + n2
+print("Sum of first ", n1, "numbers is: ", sum)
+average = sum / 2
+print("Average of ", n2, "numbers is: ", average)
